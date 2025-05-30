@@ -1,0 +1,128 @@
+header {
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    color: white;
+    position: fixed;
+    top: 0;
+    z-index: 9;
+}
+
+.logo.header {
+    /* Style for the logo */
+    background: url("../img/site-logo.png") no-repeat;
+    background-size: 254px;
+    width: 254px;
+    height: 72px;
+    margin-left: 24px;
+}
+
+.main-nav {
+    font-size: 18px;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin: 0;
+    margin-right: 17px;
+    padding: 0;
+}
+
+.main-nav li {
+    cursor: pointer;
+}
+
+.main-nav .slash{
+    color: #b6a394;
+    width: 1.4px;
+    height: 30px;
+    background-color: #e6d3c4; /* Light beige slash color */
+    transform: rotate(25deg); /* Diagonal slash */
+}
+
+.main-nav li:last-child {
+    /* Styling for the Contact button */
+    background-color: white;
+    color: #a08a7c; /* Sample text color, adjust as needed */
+    border-radius: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: 184px;
+    height: 54px;
+    position: relative;
+}
+
+.main-nav li:last-child::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    transform: translateY(-35%);
+    background: url("../img/email-icon.png") no-repeat;
+    background-size: 16px;
+    height: 19px; /* Adjust icon size as needed */
+    width: 15px; /* Adjust icon size as needed */
+}
+
+/* main */
+/* section top */
+main{
+    width: 100%;
+}
+
+.top{
+    width: 100%;
+    height: 790px;
+    background: url("../img/mv.png") no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+
+.top .content{
+    color: #fff;
+    top: 29.33%;
+    left: 7.63%;
+    width: 35.3%;
+    position: absolute;
+    z-index: 1;
+    font-weight: 900;
+}
+
+.top .content h1{
+    font-size: 108px;
+}
+.top .content h1 span{
+    font-size: 73%;
+}
+.top .content p{
+    font-size: 24px;
+}
+
+.top-img{
+    width: 35.8%;
+    position: absolute;
+    top: 118px;
+    right: 0;
+    z-index: 0;
+}
+
+.top-img.fir{
+    right: 33%;
+}
+
+.text-slide{
+    white-space: nowrap;
+    overflow: hidden;
+    letter-spacing: 10px;
+    width: 100%;
+    font-weight: 700;
+    position: absolute;
+    bottom: -8.52%;
+    font-size: 108px;
+    color: var(--main-color);
+}

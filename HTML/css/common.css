@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+}
+:root{
+    --bg-color: #a08a7c;
+    --main-color: #d4c1b1;
+}
+html{
+    width: 100%;
+    font-family: "Roboto", 'Arial','Yu Gothic','Yu Gothic UI','MS ゴシック', sans-serif;
+}
+
+body{
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
