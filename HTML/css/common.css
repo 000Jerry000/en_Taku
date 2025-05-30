@@ -5,10 +5,12 @@
 :root{
     --bg-color: #a08a7c;
     --main-color: #d4c1b1;
+    --icon-bg: #ece9e6;
+    --text-color: #ddd2c7;
 }
 
 html{
-    width: 100%;
+    width: 100vw;
     font-family: "Roboto", 'Arial','Yu Gothic','Yu Gothic UI','MS ゴシック', sans-serif;
 }
 
@@ -17,6 +19,11 @@ body{
     max-width: 1440px;
     width: 100%;
     overflow-x: hidden;
+}
+
+section{
+    width: 100%;
+    max-width: 1440px;
 }
 
 img{
@@ -32,4 +39,6 @@ img{
 
 .description{
     font-size: 11.2%;
+    letter-spacing: 1px;
+    color: #505050;
 }
