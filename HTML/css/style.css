@@ -126,3 +126,22 @@ main{
     font-size: 108px;
     color: var(--main-color);
 }
+
+/* ABOUT */
+.about{
+    width: 100%;
+    max-height: 500px;
+    padding-top: 100px;
+    height: 34.72%;
+    display: flex;
+}
+
+.about .section-title{
+    margin-left: 14.58%;
+}
+.about-content{
+    margin-right: 14.58%;
+    width: 55%;
+    font-weight: 600;
+    letter-spacing: 4px;
+}
