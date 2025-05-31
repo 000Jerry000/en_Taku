@@ -42,3 +42,23 @@ img{
     letter-spacing: 1px;
     color: #505050;
 }
+
+.parellel-title{
+    width: 400px;
+    height: 70px;
+    background-color: #333333;
+    color: #fff;
+    transform: skew(-7deg);
+    position: relative;
+}
+
+.parellel-title span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: skew(7deg) translate(-50%, -50%);
+    font-size: 32px;
+    font-weight: 700;
+    width: max-content;
+}
+
