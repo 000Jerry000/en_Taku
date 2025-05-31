@@ -1,30 +1,32 @@
-*{
+* {
     margin: 0;
 }
 
-:root{
+:root {
     --bg-color: #a08a7c;
     --main-color: #d4c1b1;
     --icon-bg: #ece9e6;
     --text-color: #ddd2c7;
 }
 
-html{
+html {
     width: 100vw;
-    font-family: "Roboto", 'Arial','Yu Gothic','Yu Gothic UI','MS ゴシック', sans-serif;
+    font-family: "Roboto", 'Arial', 'Yu Gothic', 'Yu Gothic UI', 'MS ゴシック', sans-serif;
 }
 
-body{
+body {
     margin: 0 auto;
     max-width: 1440px;
     width: 100%;
     overflow-x: hidden;
 }
 
-section{
+section {
     width: 100vw;
     max-width: 1440px;
 }
+
+
 
 .container-fluid {
     width: 97.29vw;
@@ -38,24 +40,28 @@ section{
     margin: 0 auto;
 }
 
-img{
+img {
     width: 100%;
     height: auto;
 }
 
-.section-title{
+p {
+    font-family: "Roboto";
+}
+
+.section-title {
     width: 50%;
     font-size: 108px;
     font-weight: 700;
 }
 
-.description{
+.description {
     font-size: 11.2%;
     letter-spacing: 1px;
     color: #505050;
 }
 
-.parellel-title{
+.parellel-title {
     width: 400px;
     height: 70px;
     background-color: #333333;
@@ -64,7 +70,7 @@ img{
     position: relative;
 }
 
-.parellel-title span{
+.parellel-title span {
     position: absolute;
     top: 50%;
     left: 50%;
