@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+}
+
+:root {
+    --bg-color: #a08a7c;
+    --main-color: #d4c1b1;
+    --icon-bg: #ece9e6;
+    --text-color: #ddd2c7;
+}
+
+html {
+    width: 100vw;
+    font-family: "Roboto", 'Arial', 'Yu Gothic', 'Yu Gothic UI', 'MS ゴシック', sans-serif;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+section {
+    width: 100vw;
+    max-width: 1440px;
+}
+
+
+
+.container-fluid {
+    width: 97.29vw;
+    max-width: 1401px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 71.5vw;
+    max-width: 1029px;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+p {
+    font-family: "Roboto";
+}
+
+.section-title {
+    width: 50%;
+    font-size: 108px;
+    font-weight: 700;
+}
+
+.description {
+    font-size: 11.2%;
+    letter-spacing: 1px;
+    color: #505050;
+}
+
+.parellel-title {
+    width: 400px;
+    height: 70px;
+    background-color: #333333;
+    color: #fff;
+    transform: skew(-7deg);
+    position: relative;
+}
+
+.parellel-title span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: skew(7deg) translate(-50%, -50%);
+    font-size: 32px;
+    font-weight: 700;
+    width: max-content;
+}
+
