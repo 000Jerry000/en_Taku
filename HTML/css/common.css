@@ -26,6 +26,18 @@ section{
     max-width: 1440px;
 }
 
+.container-fluid {
+    width: 97.29vw;
+    max-width: 1401px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 71.5vw;
+    max-width: 1029px;
+    margin: 0 auto;
+}
+
 img{
     width: 100%;
     height: auto;

@@ -143,16 +143,14 @@ main {
     padding-bottom: 6.94%;
     height: 34.72%;
     display: flex;
-    padding-left: 14.58%;
+    gap: 30px;
 }
 
 .about .section-title {
-    width: 33%;
+    width: 45%;
 }
 
 .about-content {
-    margin-right: 14.58%;
-    width: 46%;
     font-weight: 600;
     letter-spacing: 4px;
 }
@@ -163,26 +161,21 @@ main {
     padding-bottom: 6.94%;
 }
 
-.strengths .section-title {
-    margin-left: 14.58%;
-}
-
 .strengths-content {
     display: flex;
     gap: 15px;
-    margin-inline: 14.58%;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
 .strengths-item {
     width: 30%;
-    aspect-ratio: 1 / 1;
     transform: translateX(7%);
 }
 
 .strengths-item .item-img {
     width: 100%;
-    height: 30vw;
+    aspect-ratio: 1 / 1;
     max-height: 300px;
     background-color: var(--icon-bg);
     transform: skew(-10deg);
@@ -276,7 +269,8 @@ main {
     background: url("../img/support_bg02.png");
     background-size: cover;
 }
-.support-item:nth-of-type(2) span{
+
+.support-item:nth-of-type(2) span {
     right: unset;
     left: 2.2%;
 }
@@ -288,7 +282,7 @@ main {
 }
 
 /* faq */
-.faq{
+.faq {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -298,15 +292,14 @@ main {
     padding-bottom: 100px;
 }
 
-.faq-content{
-    width: 71.5vw;
-    max-width: 1029px;
+.faq-content {
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.faq-item{
+.faq-item {
     padding-block: 30px;
     padding-inline: 10px;
     background-color: var(--icon-bg);
@@ -315,22 +308,23 @@ main {
     gap: 20px;
 }
 
-.faq-item .item-num{
+.faq-item .item-num {
     font-size: 4.5rem;
     font-weight: 700;
     color: var(--text-color);
 }
 
-.faq-item .item-content{
+.faq-item .item-content {
     color: #333333;
 }
 
-.faq-item .item-content h2{
+.faq-item .item-content h2 {
     width: max-content;
     position: relative;
     z-index: 1;
 }
-.faq-item .item-content h2::after{
+
+.faq-item .item-content h2::after {
     content: '';
     position: absolute;
     left: 0;
@@ -342,8 +336,34 @@ main {
     background-color: #fff;
 }
 
-.faq-item .item-content p{
+.faq-item .item-content p {
     font-size: 14px;
     font-weight: 600;
     color: #555555;
+}
+
+/* GROW */
+.grow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 23px;
+}
+
+.grow-content {
+    display: flex;
+    gap: 21px;
+}
+
+.grow-item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.grow-item .item-img {
+    width: 100%;
+    aspect-ratio: 3/2;
+    border-radius: 20px;
 }
