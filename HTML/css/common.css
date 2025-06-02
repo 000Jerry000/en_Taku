@@ -64,6 +64,7 @@ p {
     font-size: 11.2%;
     letter-spacing: 1px;
     color: #505050;
+    padding-left: 6px;
 }
 
 .parellel-title {
@@ -85,3 +86,105 @@ p {
     width: max-content;
 }
 
+
+.more-btn{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.more-btn button{
+    width: 30%;
+    height: 75px;
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 37.5px;
+    background: var(--bg-color);
+    font-size: 24px;
+    color: #fff;
+    position: relative;
+    transition: all .35s;
+}
+
+.more-btn button:hover{
+    background-color: #fff;
+    border: 2px solid var(--bg-color);
+    color: var(--bg-color);
+    cursor: pointer;
+    transition: all .35s;
+}
+.more-btn button:hover::before{
+    right: -84px;
+    transition: all .35s;
+}
+.more-btn button:hover::after{
+    right: -80px;
+    transition: all .35s;
+}
+
+.more-btn button::before{
+    content: '';
+    width: 30px;
+    height: 2px;
+    background-color: var(--icon-bg);
+    transform: translate(0, -11px) rotate(45deg);
+    position: absolute;
+    top: 50%;
+    right: -44px;
+    transition: all .35s;
+}
+
+.more-btn button::after{
+    content: '';
+    width: 80px;
+    height: 2px;
+    background-color: var(--icon-bg);
+    position: absolute;
+    top: 50%;
+    right: -40px;
+    transition: all .35s;
+}
+
+.more{
+    position: absolute;
+    bottom: 20px;
+    right: 80px;
+    letter-spacing: 1.5px;
+}
+
+.more::after{
+    content: '';
+    width: 90%;
+    height: 1px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 30%;
+    right: -130%;
+    transition: all .35s;
+}
+
+.more::before{
+    content: '';
+    width: 12px;
+    height: 1px;
+    background-color: #fff;
+    transform: rotate(45deg);
+    position: absolute;
+    bottom: calc(30% + 5px);
+    right: -130%;
+    transition: all .35s;
+}
+
+.more:hover{
+    cursor: pointer;
+}
+
+.more:hover::before{
+    right: -150%;
+    transition: all .35s;
+}
+.more:hover::after{
+    right: -150%;
+    transition: all .35s;
+}

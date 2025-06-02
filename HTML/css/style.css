@@ -433,64 +433,6 @@ main {
     background: url("../img/send-icon.png") no-repeat center/cover;
 }
 
-.livers-btn{
-    margin-top: 40px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.livers-btn button{
-    width: 30%;
-    height: 75px;
-    border: 2px solid #fff;
-    border-radius: 37.5px;
-    background: var(--bg-color);
-    font-size: 24px;
-    color: #fff;
-    position: relative;
-    transition: all .35s;
-}
-
-.livers-btn button:hover{
-    background-color: #fff;
-    border: 2px solid var(--bg-color);
-    color: var(--bg-color);
-    transition: all .35s;
-}
-.livers-btn button:hover::before{
-    right: -84px;
-    transition: all .35s;
-}
-.livers-btn button:hover::after{
-    right: -80px;
-    transition: all .35s;
-}
-
-.livers-btn button::before{
-    content: '';
-    width: 30px;
-    height: 2px;
-    background-color: var(--icon-bg);
-    transform: translate(0, -11px) rotate(45deg);
-    position: absolute;
-    top: 50%;
-    right: -44px;
-    transition: all .35s;
-}
-.livers-btn button::after{
-    content: '';
-    width: 80px;
-    height: 2px;
-    background-color: var(--icon-bg);
-    position: absolute;
-    top: 50%;
-    right: -40px;
-    transition: all .35s;
-}
-
-
 /* SYSTEM */
 .system{
     position: relative;
@@ -588,3 +530,55 @@ main {
 .flow-item:nth-of-type(4)::after{
     height: 0;
 }
+
+/* CONTACT */
+section.contact{
+    margin-top: 21px;
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    gap: 20px;
+}
+
+.contact-item:nth-of-type(1){
+    background: url("../img/company.png") no-repeat center/cover;
+}
+
+.contact-item:nth-of-type(2){
+    background: url("../img/recruit.png") no-repeat center/cover;
+}
+
+.contact-item:nth-of-type(3){
+    background: url("../img/contact-bg.png") no-repeat center/cover;
+}
+
+.contact-item{
+    height: 34.72vw;
+    max-height: 500px;
+    width: calc(50% - 10px);
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-radius: 8px;
+}
+
+.contact-item .item-title{
+    padding-left: 1.46vw;
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+}
+
+.contact-item .description{
+    color: #fff;
+    font-weight: 400;
+    font-size: 8px;
+    padding-left: 6px;
+}
+
+.contact-item:nth-of-type(3){
+    flex-direction: column;
+    justify-content: center;
+}
+
