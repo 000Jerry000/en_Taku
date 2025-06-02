@@ -582,3 +582,41 @@ section.contact{
     justify-content: center;
 }
 
+/* FOOTER */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding-block: 120px;
+}
+
+.footer-logo{
+    width: 254px;
+}
+
+.footer-nav{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-weight: 500;
+}
+
+.footer-nav li:nth-of-type(2){
+    width: 1px;
+    height: 40px;
+    background-color: var(--bg-color);
+    transform: rotate(25deg);
+}
+
+.copyright{
+    margin: 0 auto;
+    width: 91.6vw;
+    max-width: 1319px;
+    height: 87px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid var(--bg-color);
+    font-size: 0.5rem;
+    letter-spacing: 2px;
+}
