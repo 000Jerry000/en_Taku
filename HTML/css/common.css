@@ -3,6 +3,7 @@
 }
 
 :root {
+    --num-back: #7d604a;
     --bg-color: #a08a7c;
     --main-color: #d4c1b1;
     --icon-bg: #ece9e6;
@@ -29,8 +30,8 @@ section {
 
 
 .container-fluid {
-    width: 97.29vw;
-    max-width: 1401px;
+    width: 96.94vw;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -53,6 +54,10 @@ p {
     width: 50%;
     font-size: 108px;
     font-weight: 700;
+}
+
+.container-fluid .section-title{
+    padding-left: 1%;
 }
 
 .description {
