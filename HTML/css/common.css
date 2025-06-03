@@ -11,8 +11,16 @@
 }
 
 html {
+    scroll-behavior: smooth;
     width: 100vw;
     font-family: "Roboto", 'Arial', 'Yu Gothic', 'Yu Gothic UI', 'MS ゴシック', sans-serif;
+}
+
+@media (max-width: 1440px) {
+    html {
+        font-size: calc(100vw / 90);
+        /* 16px at 1440px: 1440 / 90 = 16 */
+    }
 }
 
 body {
@@ -26,8 +34,6 @@ section {
     width: 100vw;
     max-width: 1440px;
 }
-
-
 
 .container-fluid {
     width: 96.94vw;
@@ -50,13 +56,35 @@ p {
     font-family: "Roboto";
 }
 
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #fff;
+}
+
+a:hover {
+    color: #fff;
+}
+
+a:active {
+    color: #fff;
+}
+
+a:focus {
+    color: #fff;
+}
+
 .section-title {
     width: 50%;
     font-size: 108px;
     font-weight: 700;
+    letter-spacing: 6px;
 }
 
-.container-fluid .section-title{
+.container-fluid .section-title {
     padding-left: 1%;
 }
 
@@ -87,7 +115,7 @@ p {
 }
 
 
-.more-btn{
+.more-btn {
     margin-top: 40px;
     width: 100%;
     display: flex;
@@ -95,7 +123,7 @@ p {
     justify-content: center;
 }
 
-.more-btn button{
+.more-btn button {
     width: 30%;
     height: 75px;
     border: 2px solid rgba(0, 0, 0, 0);
@@ -107,23 +135,25 @@ p {
     transition: all .35s;
 }
 
-.more-btn button:hover{
+.more-btn button:hover {
     background-color: #fff;
     border: 2px solid var(--bg-color);
     color: var(--bg-color);
     cursor: pointer;
     transition: all .35s;
 }
-.more-btn button:hover::before{
+
+.more-btn button:hover::before {
     right: -84px;
     transition: all .35s;
 }
-.more-btn button:hover::after{
+
+.more-btn button:hover::after {
     right: -80px;
     transition: all .35s;
 }
 
-.more-btn button::before{
+.more-btn button::before {
     content: '';
     width: 30px;
     height: 2px;
@@ -135,7 +165,7 @@ p {
     transition: all .35s;
 }
 
-.more-btn button::after{
+.more-btn button::after {
     content: '';
     width: 80px;
     height: 2px;
@@ -146,14 +176,15 @@ p {
     transition: all .35s;
 }
 
-.more{
+.more {
     position: absolute;
     bottom: 20px;
     right: 80px;
     letter-spacing: 1.5px;
+    font-size: 16px;
 }
 
-.more::after{
+.more::after {
     content: '';
     width: 90%;
     height: 1px;
@@ -164,7 +195,7 @@ p {
     transition: all .35s;
 }
 
-.more::before{
+.more::before {
     content: '';
     width: 12px;
     height: 1px;
@@ -176,15 +207,24 @@ p {
     transition: all .35s;
 }
 
-.more:hover{
+.more:hover {
     cursor: pointer;
 }
 
-.more:hover::before{
+.more:hover::before {
     right: -150%;
     transition: all .35s;
 }
-.more:hover::after{
+
+.more:hover::after {
     right: -150%;
     transition: all .35s;
+}
+
+/* screen width: 768px ~ */
+@media (max-width: 1024px) {
+    .container {
+        width: 96.94vw;
+        max-width: 1400px;
+    }
 }

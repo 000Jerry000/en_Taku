@@ -6,8 +6,8 @@ header {
     align-items: center;
     padding-block: 15px;
     color: white;
-    background-color: var(--bg-color);
-    /* position: fixed; */
+    /* background-color: var(--bg-color); */
+    position: absolute;
     top: 0;
     z-index: 9;
 }
@@ -46,7 +46,7 @@ header {
     /* Diagonal slash */
 }
 
-.main-nav li:last-child {
+.main-nav li:last-child a{
     /* Styling for the Contact button */
     background-color: white;
     color: #a08a7c;
@@ -61,7 +61,7 @@ header {
     position: relative;
 }
 
-.main-nav li:last-child::before {
+.main-nav li:last-child a::before {
     content: '';
     position: absolute;
     top: 50%;
@@ -85,7 +85,8 @@ main {
 
 .top {
     width: 100%;
-    height: 790px;
+    height: 54.861vw;
+    max-height: 790px;
     background: url("../img/mv.png") no-repeat;
     background-size: 100%;
     position: relative;
@@ -98,19 +99,20 @@ main {
     width: 35.3%;
     position: absolute;
     z-index: 1;
-    font-weight: 900;
 }
 
 .top .content h1 {
-    font-size: 108px;
+    font-size: 6.75rem;
 }
 
 .top .content h1 span {
-    font-size: 73%;
+    font-size: 5rem;
 }
 
 .top .content p {
-    font-size: 24px;
+    margin-top: 10px;
+    font-size: 1.1rem;
+    letter-spacing: 3px;
 }
 
 .top-img {
@@ -132,7 +134,8 @@ main {
     width: 100%;
     font-weight: 700;
     position: absolute;
-    bottom: -8.52%;
+    bottom: 0;
+    transform: translateY(50%);
     font-size: 108px;
     color: var(--main-color);
 }
@@ -142,17 +145,16 @@ main {
     max-height: 500px;
     padding-top: 13.88%;
     padding-bottom: 6.94%;
-    height: 34.72%;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     gap: 30px;
 }
 
-.about .section-title {
-    width: 45%;
-}
 
 .about-content {
-    font-weight: 600;
+    font-size: 16px;
+    width: 55%;
     letter-spacing: 4px;
 }
 
@@ -254,11 +256,11 @@ main {
 }
 
 .support-item .item-content h1 {
-    font-size: 54px;
+    font-size: 3.375rem;
 }
 
 .support-item .item-content p {
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .support-item:nth-of-type(1) {
@@ -395,6 +397,7 @@ main {
 
 .livers-item .item-content{
     height: 220px;
+    font-size: 16px;
 }
 
 .item-footer{
@@ -404,6 +407,7 @@ main {
     background-color: var(--icon-bg);
     display: flex;
     align-items: center;
+    font-size: 16px;
 }
 
 .item-footer p{
@@ -472,6 +476,14 @@ main {
     padding-top: 18%;
 }
 
+.strengths-item h2{
+    font-size: 24px;
+}
+
+.strengths-item p{
+    font-size: 16px;
+}
+
 .strengths-item p span{
     background-color: var(--num-back);
     font-size: 18px;
@@ -493,6 +505,7 @@ main {
 .flow-item{
     padding-left: 33px;
     height: 110px;
+    font-size: 16px;
     border: 1px solid #fff;
     border-radius: 10px;
     display: flex;
@@ -509,11 +522,12 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 2rem;
+    font-size: 32px;
 }
 
 .flow-item h1{
     width: 150px;
+    font-size: 24px;
 }
 
 .flow-item::after{
@@ -533,11 +547,11 @@ main {
 
 /* CONTACT */
 section.contact{
-    margin-top: 21px;
+    margin-top: 1.26rem;
     display: flex;
     flex-wrap: wrap;
     color: #fff;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 .contact-item:nth-of-type(1){
@@ -564,7 +578,7 @@ section.contact{
 
 .contact-item .item-title{
     padding-left: 1.46vw;
-    font-size: 4rem;
+    font-size: 64px;
     font-weight: 700;
     font-family: sans-serif;
     letter-spacing: 5px;
@@ -595,10 +609,15 @@ section.contact{
 
 .footer-nav{
     list-style: none;
+    font-size: 16px;
     display: flex;
     align-items: center;
     gap: 50px;
     font-weight: 500;
+}
+
+.footer-nav a, .footer-nav a:hover, .footer-nav a:visited{
+    color: #000;
 }
 
 .footer-nav li:nth-of-type(2){
@@ -617,6 +636,31 @@ section.contact{
     align-items: center;
     justify-content: center;
     border-top: 1px solid var(--bg-color);
-    font-size: 0.5rem;
+    font-size: 9px;
     letter-spacing: 2px;
+}
+
+/* screen width: 768px ~ */
+@media (max-width: 1024px){
+    .strengths-content {
+        width: 93vw;
+    }
+
+    .faq-item .item-content h2 {
+        font-size: 2.25rem;
+    }
+
+    .item-button{
+        width: 100%;
+    }
+
+    .strengths-content.container{
+        width: 93vw;
+        margin: 0 15px;
+    }
+
+    .footer.container{
+        width: 71.5vw;
+        max-width: 1029px;
+    }
 }
