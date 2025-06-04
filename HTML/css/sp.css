@@ -10,11 +10,11 @@
         margin-left: 10px;
     }
 
-    .main-nav{
+    .main-nav {
         margin: 0;
     }
 
-    .main-nav li:nth-of-type(4) a{
+    .main-nav li:nth-of-type(4) a {
         width: 77px;
         height: 77px;
         border-radius: 50%;
@@ -31,7 +31,7 @@
         background-size: 26px;
     }
 
-    .menu-icon{
+    .menu-icon {
         height: 90px;
         aspect-ratio: 1/1;
         background-color: #fff;
@@ -39,7 +39,7 @@
         transition: all ease-in-out .35s;
     }
 
-    .menu-icon span{
+    .menu-icon span {
         width: 50px;
         height: 2px;
         border: none;
@@ -50,8 +50,8 @@
         transform: translateX(-50%);
         transition: all ease-in-out .35s;
     }
-    
-    .menu-icon span::before{
+
+    .menu-icon span::before {
         content: '';
         width: 50px;
         height: 2px;
@@ -64,7 +64,7 @@
         transition: all ease-in-out .35s;
     }
 
-    .menu-icon span::after{
+    .menu-icon span::after {
         content: '';
         width: 50px;
         height: 2px;
@@ -77,67 +77,82 @@
         transition: all ease-in-out .35s;
     }
 
-    .open .menu-icon span{
+    .open .menu-icon span {
         height: 0;
         width: 0;
     }
-    .open .menu-icon span::before{
+
+    .open .menu-icon span::before {
         top: 0;
         transform: translateX(-50%) rotate(45deg);
     }
 
-    .open .menu-icon span::after{
+    .open .menu-icon span::after {
         top: 0;
         transform: translateX(-50%) rotate(-45deg);
     }
 
     /* SP MENU */
 
-    .open .sp_menu{
+    .open .sp_menu {
         opacity: 1;
         transform: translateX(0);
     }
 
     /* TOP */
-    .top{
+    .top {
         height: 144vw;
         max-height: unset;
         background: url("../img/mv-sp.png") no-repeat;
         background-size: 100%;
     }
 
-    .top-img{
+    .top-img {
         width: 58%;
         transform: translateX(30%);
     }
 
-    .top-img.fir{
+    .top-img.fir {
         right: 54.5%;
     }
 
-    .top .content{
+    .top .content {
         width: 76.4%;
         top: 46%;
         left: 1.3125rem;
     }
 
-    .top .content h1{
+    .top .content h1 {
         font-size: 13.5rem;
         line-height: 12rem;
     }
 
-    .top .content h1 span{
+    .top .content h1 span {
         font-size: 8.5rem;
     }
 
-    .top .content p{
+    .top .content p {
         margin-top: 33px;
         font-size: 3.7rem;
         white-space: nowrap;
         padding-left: 2.5rem;
     }
 
-    .text-slide{
+    .text-slide {
         transform: translateY(42%);
+    }
+
+    /* ABOUT */
+    .about {
+        flex-direction: column;
+        max-height: unset;
+    }
+
+    .about>div {
+        width: 100%;
+    }
+
+    .about-content {
+        font-size: 25px;
     }
 }

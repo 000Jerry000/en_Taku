@@ -78,7 +78,7 @@ a:focus {
     color: #fff;
 }
 
-.sp{
+.sp {
     display: none !important;
 }
 
@@ -235,11 +235,16 @@ a:focus {
 }
 
 @media (max-width: 750px) {
-    .pc{
+    .pc {
         display: none !important;
     }
 
-    .sp{
+    .sp {
         display: flex !important;
+    }
+
+    .description {
+        font-size: 15.2%;
+        transform: translateY(-10px)
     }
 }
