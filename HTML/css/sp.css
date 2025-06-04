@@ -155,4 +155,34 @@
     .about-content {
         font-size: 25px;
     }
+
+    /* STRENGTHS */
+    .strengths-content {
+        flex-direction: column;
+        gap: 56px;
+        margin: 0 auto;
+        width: 80vw;
+        max-width: 450px;
+    }
+
+    .strengths-item {
+        width: 100%;
+        transform: translateX(0);
+    }
+
+    .strengths-item .item-img {
+        max-height: unset;
+    }
+
+    .strengths-item .item-img span {
+        font-size: 56px;
+    }
+
+    .strengths-item h2 {
+        font-size: 32px;
+    }
+
+    .strengths-item p {
+        font-size: 22px;
+    }
 }
