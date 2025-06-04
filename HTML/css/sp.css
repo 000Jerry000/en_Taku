@@ -238,4 +238,8 @@
     .faq-item .item-content h2 {
         width: unset;
     }
+
+    .faq-item .item-content {
+        color: #333333;
+    }
 }
