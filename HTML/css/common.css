@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    transition: all ease-in-out .35s;
 }
 
 :root {
@@ -36,7 +37,7 @@ section {
 }
 
 .container-fluid {
-    width: 96.94vw;
+    width: 96.94vw !important;
     max-width: 1400px;
     margin: 0 auto;
 }
@@ -225,7 +226,7 @@ a:focus {
     transition: all .35s;
 }
 
-/* screen width: 768px ~ */
+/* screen width: 750px ~ */
 @media (max-width: 1024px) {
     .container {
         width: 96.94vw;
@@ -233,7 +234,7 @@ a:focus {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 750px) {
     .pc{
         display: none !important;
     }

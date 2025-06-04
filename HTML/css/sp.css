@@ -97,4 +97,47 @@
         opacity: 1;
         transform: translateX(0);
     }
+
+    /* TOP */
+    .top{
+        height: 144vw;
+        max-height: unset;
+        background: url("../img/mv-sp.png") no-repeat;
+        background-size: 100%;
+    }
+
+    .top-img{
+        width: 58%;
+        transform: translateX(30%);
+    }
+
+    .top-img.fir{
+        right: 54.5%;
+    }
+
+    .top .content{
+        width: 76.4%;
+        top: 46%;
+        left: 1.3125rem;
+    }
+
+    .top .content h1{
+        font-size: 13.5rem;
+        line-height: 12rem;
+    }
+
+    .top .content h1 span{
+        font-size: 8.5rem;
+    }
+
+    .top .content p{
+        margin-top: 33px;
+        font-size: 3.7rem;
+        white-space: nowrap;
+        padding-left: 2.5rem;
+    }
+
+    .text-slide{
+        transform: translateY(42%);
+    }
 }
