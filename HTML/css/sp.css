@@ -235,11 +235,29 @@
     }
 
     /* FAQ */
-    .faq-item .item-content h2 {
-        width: unset;
-    }
 
+    .faq-item {
+        gap: 3rem;
+    }
     .faq-item .item-content {
         color: #333333;
+    }
+
+    .faq-item .item-num {
+        font-size: 9.5rem;
+    }
+
+    .faq-item .item-content h2 {
+        font-size: 3.8rem;
+        line-height: 1.3;
+    }
+
+    .faq-item .item-content h2::after {
+        bottom: 0.5rem;
+        height: 1.5rem;
+    }
+
+    .faq-item .item-content p {
+        margin-top: 10px;
     }
 }
