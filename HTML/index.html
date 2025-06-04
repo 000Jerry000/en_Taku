@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>en_Taku</title>
-    <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/sp.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,17 +20,25 @@
     />
     <link rel="stylesheet" href="https://use.typekit.net/abg4zef.css" />
   </head>
-  <body>
+  <body class="close">
     <header>
       <div class="logo header"></div>
       <ul class="main-nav">
-        <li><a href="#company">Company</a></li>
-        <li class="slash"></li>
-        <li><a href="#livers">Livers</a></li>
+        <li class="pc"><a href="#company">Company</a></li>
+        <li class="slash pc"></li>
+        <li class="pc"><a href="#livers">Livers</a></li>
         <li><a href="">Contact</a></li>
+        <li class="menu-icon sp" id="toggleBtn"><span></span></li>
       </ul>
     </header>
     <main>
+      <div class="menu" id="menu-box">
+        <ul class="sp_menu">
+          <li><a href="">Company</a></li>
+          <li><a href="#livers">Livers</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </div>
       <section class="top">
         <div class="content">
           <h1>成功<span>まで</span> 最短距離</h1>
@@ -392,5 +401,6 @@
       </div>
       <div class="copyright">Copyright ©en-Taku 2025</div>
     </footer>
+    <script src="./js/script.js"></script>
   </body>
 </html>

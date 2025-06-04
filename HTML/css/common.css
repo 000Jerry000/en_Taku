@@ -77,6 +77,10 @@ a:focus {
     color: #fff;
 }
 
+.sp{
+    display: none !important;
+}
+
 .section-title {
     width: 50%;
     font-size: 108px;
@@ -226,5 +230,15 @@ a:focus {
     .container {
         width: 96.94vw;
         max-width: 1400px;
+    }
+}
+
+@media (max-width: 768px) {
+    .pc{
+        display: none !important;
+    }
+
+    .sp{
+        display: flex !important;
     }
 }

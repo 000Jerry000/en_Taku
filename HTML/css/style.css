@@ -46,7 +46,7 @@ header {
     /* Diagonal slash */
 }
 
-.main-nav li:last-child a{
+.main-nav li:nth-of-type(4) a{
     /* Styling for the Contact button */
     background-color: white;
     color: #a08a7c;
@@ -61,7 +61,7 @@ header {
     position: relative;
 }
 
-.main-nav li:last-child a::before {
+.main-nav li:nth-of-type(4) a::before {
     content: '';
     position: absolute;
     top: 50%;
@@ -76,6 +76,33 @@ header {
 }
 
 /* main */
+
+/* MOBILE MENU  */
+.sp_menu{
+    transform: translateX(100%);
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--bg-color);
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0;
+    transition: all ease-in-out .35s;
+    opacity: 0;
+}
+
+.sp_menu li{
+    width: 200px;
+    list-style: none;
+    font-size: 32px;
+    font-weight: 700;
+}
+
 /* section top */
 main {
     width: 100%;
