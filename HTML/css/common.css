@@ -247,4 +247,12 @@ a:focus {
         font-size: 15.2%;
         transform: translateY(-10px)
     }
+
+    .more-btn{
+        justify-content: flex-start;
+    }
+
+    .more-btn button {
+        width: calc(100% - 40px);
+    }
 }

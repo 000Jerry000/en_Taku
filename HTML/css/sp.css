@@ -239,6 +239,7 @@
     .faq-item {
         gap: 3rem;
     }
+
     .faq-item .item-content {
         color: #333333;
     }
@@ -262,24 +263,57 @@
     }
 
     /* GROW */
-    .grow{
+    .grow {
         width: 84.5%;
     }
+
     .grow-content {
         flex-direction: column;
         gap: 7rem;
     }
 
-    .grow-item{
+    .grow-item {
         gap: 10px;
     }
 
-    .grow-item h1{
+    .grow-item h1 {
         font-size: 3.9rem;
         line-height: 1;
     }
-    
-    .grow-item p{
+
+    .grow-item p {
         font-size: 3.1rem;
+    }
+
+    /* LIVERS  */
+    .livers-content {
+        flex-direction: column;
+    }
+
+    .livers-item {
+        width: 100%;
+    }
+
+    .livers-item .item-content {
+        height: max-content;
+        font-size: 28px;
+    }
+
+    .item-footer p {
+        width: 93%;
+        font-size: 18px;
+        letter-spacing: 3px;
+    }
+
+    .item-button {
+        height: 80px;
+        border-radius: 40px;
+        font-size: 28px;
+    }
+
+    .item-button::after {
+        width: 25px;
+        height: 25px;
+        right: 40px;
     }
 }
