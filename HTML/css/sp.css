@@ -364,4 +364,16 @@
     .more-btn button {
         width: calc(96% - 40px);
     }
+
+    /* FOOTER */
+    .footer{
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .footer-nav{
+        font-size: 32px;
+        flex-direction: column;
+    }
 }
