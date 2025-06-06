@@ -342,4 +342,26 @@
     .flow-item .item-content {
         flex-direction: column;
     }
+
+    /* CONTACT */
+    .contact .contact-item {
+        width: 100%;
+        height: 60vw;
+    }
+
+    .contact-item .item-title {
+        font-size: 68px;
+    }
+
+    .contact-item .description {
+        font-size: 12px;
+    }
+
+    .more-btn {
+        padding-inline: 1.46vw;
+    }
+
+    .more-btn button {
+        width: calc(96% - 40px);
+    }
 }
