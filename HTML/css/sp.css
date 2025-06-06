@@ -316,4 +316,21 @@
         height: 25px;
         right: 40px;
     }
+
+    /* SYSTEM */
+    .system {
+        margin-top: 22.66vw;
+    }
+
+    .strengths-content.container {
+        margin: 0 auto;
+    }
+
+    .strengths-content {
+        gap: 12.53vw;
+    }
+
+    .system-back {
+        top: 70vw;
+    }
 }
