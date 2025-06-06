@@ -553,6 +553,10 @@ main {
     font-size: 32px;
 }
 
+.flow-item .item-content{
+    display: flex;
+}
+
 .flow-item h1{
     width: 150px;
     font-size: 24px;

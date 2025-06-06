@@ -333,4 +333,13 @@
     .system-back {
         top: 70vw;
     }
+
+    /* FLOW */
+    .flow {
+        margin-top: 20vw;
+    }
+
+    .flow-item .item-content {
+        flex-direction: column;
+    }
 }
