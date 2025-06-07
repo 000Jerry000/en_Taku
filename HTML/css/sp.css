@@ -316,4 +316,64 @@
         height: 25px;
         right: 40px;
     }
+
+    /* SYSTEM */
+    .system {
+        margin-top: 22.66vw;
+    }
+
+    .strengths-content.container {
+        margin: 0 auto;
+    }
+
+    .strengths-content {
+        gap: 12.53vw;
+    }
+
+    .system-back {
+        top: 70vw;
+    }
+
+    /* FLOW */
+    .flow {
+        margin-top: 20vw;
+    }
+
+    .flow-item .item-content {
+        flex-direction: column;
+    }
+
+    /* CONTACT */
+    .contact .contact-item {
+        width: 100%;
+        height: 60vw;
+    }
+
+    .contact-item .item-title {
+        font-size: 68px;
+    }
+
+    .contact-item .description {
+        font-size: 12px;
+    }
+
+    .more-btn {
+        padding-inline: 1.46vw;
+    }
+
+    .more-btn button {
+        width: calc(96% - 40px);
+    }
+
+    /* FOOTER */
+    .footer{
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .footer-nav{
+        font-size: 32px;
+        flex-direction: column;
+    }
 }
