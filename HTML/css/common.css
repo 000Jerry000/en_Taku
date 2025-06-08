@@ -14,7 +14,7 @@
 html {
     scroll-behavior: smooth;
     width: 100vw;
-    font-family: "Roboto", 'Arial', 'Yu Gothic', 'Yu Gothic UI', 'MS ゴシック', sans-serif;
+    font-family: sans-serif;
 }
 
 @media (max-width: 1440px) {
@@ -47,7 +47,8 @@ section {
     /* max-width: 1029px; */
     margin: 0 auto;
 }
-@media (min-width: 1210px){
+
+@media (min-width: 1210px) {
     .sm-container {
         width: 55.55vw;
         max-width: 800px;
@@ -61,7 +62,7 @@ img {
 }
 
 p {
-    font-family: "Roboto";
+    font-family: sans-serif;
 }
 
 a {
@@ -91,7 +92,7 @@ a:active {
 
 .section-title {
     width: 50%;
-    font-size: 108px;
+    font-size: 7.5rem;
     font-weight: 700;
     letter-spacing: 6px;
 }
@@ -194,9 +195,9 @@ a:active {
 .more {
     position: absolute;
     bottom: 20px;
-    right: 80px;
+    right: 120px;
     letter-spacing: 1.5px;
-    font-size: 16px;
+    font-size: 28px;
 }
 
 .more::after {
@@ -222,20 +223,6 @@ a:active {
     transition: all .35s;
 }
 
-.more:hover {
-    cursor: pointer;
-}
-
-.more:hover::before {
-    right: -150%;
-    transition: all .35s;
-}
-
-.more:hover::after {
-    right: -150%;
-    transition: all .35s;
-}
-
 .page-top {
     width: 100vw;
     height: 40.09vw;
@@ -255,7 +242,7 @@ a:active {
     color: #fff;
 }
 
-span.red{
+span.red {
     color: red;
     vertical-align: super;
     font-size: 12px;
@@ -283,7 +270,7 @@ span.red{
         transform: translateY(-10px)
     }
 
-    .more-btn{
+    .more-btn {
         justify-content: flex-start;
     }
 
