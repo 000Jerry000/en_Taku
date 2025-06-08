@@ -203,6 +203,7 @@ main {
 }
 
 .strengths-content {
+    margin-top: 52px;
     display: flex;
     gap: 15px;
     justify-content: space-between;
@@ -415,6 +416,7 @@ main {
 
 /* LIVERS */
 .livers-content {
+    margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
     gap: 3vw;
@@ -506,6 +508,7 @@ main {
 }
 
 .sys-img {
+    margin-top: 20px;
     width: 96.94vw;
     /* max-width: 1400px; */
     position: absolute;
@@ -518,18 +521,20 @@ main {
     height: 100%;
     transform: skewY(-5deg);
     position: absolute;
-    top: 20%;
+    top: 25%;
     left: 0;
     background-color: var(--bg-color);
     z-index: -1;
 }
 
 .system .strengths-content {
-    padding-top: 18%;
+    padding-top: 15.5%;
 }
 
 .strengths-item h2 {
     font-size: 24px;
+    padding-top: 22px;
+    padding-bottom: 16px;
 }
 
 .strengths-item p {
@@ -547,6 +552,7 @@ main {
 }
 
 .flow-content {
+    margin-top: 30px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -630,11 +636,17 @@ section.contact {
     align-items: center;
     position: relative;
     border-radius: 8px;
+    transition: all .35s;
+}
+
+.contact-item:hover{
+    background-size: 150%;
 }
 
 .contact-item .item-title {
     padding-left: 1.46vw;
-    font-size: 64px;
+    /* font-size: 64px; */
+    font-size: 8rem;
     font-weight: 700;
     font-family: sans-serif;
     letter-spacing: 5px;
@@ -643,7 +655,8 @@ section.contact {
 .contact-item .description {
     color: #fff;
     font-weight: 400;
-    font-size: 8px;
+    /* font-size: 8px; */
+    font-size: 1.1rem;
     padding-left: 6px;
 }
 
@@ -652,13 +665,13 @@ section.contact {
     justify-content: center;
 }
 
-#contact .item-title {
+/* #contact .item-title {
     font-size: 8rem;
 }
 
 #contact .description {
     font-size: 1.1rem;
-}
+} */
 
 /* FOOTER */
 .footer {
