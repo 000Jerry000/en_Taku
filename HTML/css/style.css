@@ -76,7 +76,8 @@ header {
 }
 
 .main-nav li:nth-of-type(4) a:hover {
-    background-color: var(--num-back);;
+    background-color: var(--num-back);
+    ;
     color: #fff;
 }
 
@@ -190,11 +191,15 @@ main {
     gap: 30px;
 }
 
+.about .section-title .description {
+    transform: translate(-6px, -17px);
+}
 
 .about-content {
     font-size: 16px;
     width: 55%;
     letter-spacing: 4px;
+    line-height: 1.8;
 }
 
 /* strength */
@@ -481,13 +486,13 @@ main {
     background: url("../img/send-icon.png") no-repeat center/cover;
 }
 
-.item-button:hover{
+.item-button:hover {
     color: #fff;
     border: 1px solid #fff;
     background-color: var(--bg-color);
 }
 
-.item-button:hover::after{
+.item-button:hover::after {
     background: url("../img/send-icon-hover.png") no-repeat center/cover;
 }
 
@@ -529,6 +534,10 @@ main {
 
 .system .strengths-content {
     padding-top: 15.5%;
+}
+
+.system .strengths-content .item-img {
+    background-color: #fff;
 }
 
 .strengths-item h2 {
@@ -639,7 +648,7 @@ section.contact {
     transition: all .35s;
 }
 
-.contact-item:hover{
+.contact-item:hover {
     background-size: 150%;
 }
 
@@ -923,10 +932,10 @@ form .more-btn button {
 /* ------------------ L I V E R ---------------------- */
 /* --------------------------------------------------- */
 
-#liver-top{
+#liver-top {
     background: url(../img/liver-top.png) no-repeat center/cover;
 }
 
-#livers{
+#livers {
     margin-block: 100px;
 }
