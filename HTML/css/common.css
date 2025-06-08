@@ -48,6 +48,12 @@ section {
     margin: 0 auto;
 }
 
+.sm-container {
+    width: 55.55vw;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 img {
     width: 100%;
     height: auto;
@@ -224,6 +230,31 @@ a:focus {
 .more:hover::after {
     right: -150%;
     transition: all .35s;
+}
+
+.page-top {
+    width: 100vw;
+    height: 40.09vw;
+    max-height: 578px;
+    display: flex;
+    align-items: center;
+}
+
+.page-top .section-title {
+    color: #fff;
+    width: 71.5vw;
+    max-width: 1029px;
+    margin: 0 auto;
+}
+
+.page-top .section-title .description {
+    color: #fff;
+}
+
+span.red{
+    color: red;
+    vertical-align: super;
+    font-size: 12px;
 }
 
 /* screen width: 750px ~ */
