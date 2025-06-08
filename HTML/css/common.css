@@ -47,11 +47,12 @@ section {
     /* max-width: 1029px; */
     margin: 0 auto;
 }
-
-.sm-container {
-    width: 55.55vw;
-    max-width: 800px;
-    margin: 0 auto;
+@media (min-width: 1210px){
+    .sm-container {
+        width: 55.55vw;
+        max-width: 800px;
+        margin: 0 auto;
+    }
 }
 
 img {
@@ -80,9 +81,9 @@ a:active {
     color: #fff;
 }
 
-a:focus {
+/* a:focus {
     color: #fff;
-}
+} */
 
 .sp {
     display: none !important;

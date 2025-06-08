@@ -75,6 +75,16 @@ header {
     /* Adjust icon size as needed */
 }
 
+.main-nav li:nth-of-type(4) a:hover {
+    background-color: var(--num-back);;
+    color: #fff;
+}
+
+.main-nav li:nth-of-type(4) a:hover::before {
+    background: url("../img/email-icon-hover.png") no-repeat;
+    background-size: 16px;
+}
+
 /* main */
 
 /* MOBILE MENU  */
@@ -451,6 +461,9 @@ main {
     color: var(--bg-color);
     border: 1px solid var(--bg-color);
     border-radius: 22.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: unset;
     position: relative;
 }
@@ -464,6 +477,16 @@ main {
     right: 25px;
     transform: translateY(-50%);
     background: url("../img/send-icon.png") no-repeat center/cover;
+}
+
+.item-button:hover{
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: var(--bg-color);
+}
+
+.item-button:hover::after{
+    background: url("../img/send-icon-hover.png") no-repeat center/cover;
 }
 
 /* SYSTEM */
@@ -786,6 +809,7 @@ section.contact {
 .step-diagram p {
     color: #cdcdcd;
     font-weight: 700;
+    font-size: 16px;
 }
 
 .step-diagram .active {
@@ -880,4 +904,16 @@ form .more-btn button {
     color: var(--bg-color);
     cursor: pointer;
     transition: all .35s;
+}
+
+/* --------------------------------------------------- */
+/* ------------------ L I V E R ---------------------- */
+/* --------------------------------------------------- */
+
+#liver-top{
+    background: url(../img/liver-top.png) no-repeat center/cover;
+}
+
+#livers{
+    margin-block: 100px;
 }
