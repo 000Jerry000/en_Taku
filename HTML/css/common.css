@@ -26,25 +26,25 @@ html {
 
 body {
     margin: 0 auto;
-    max-width: 1440px;
+    /* max-width: 1440px; */
     width: 100%;
     overflow-x: hidden;
 }
 
 section {
     width: 100vw;
-    max-width: 1440px;
+    /* max-width: 1440px; */
 }
 
 .container-fluid {
     width: 96.94vw !important;
-    max-width: 1400px;
+    /* max-width: 1400px; */
     margin: 0 auto;
 }
 
 .container {
     width: 71.5vw;
-    max-width: 1029px;
+    /* max-width: 1029px; */
     margin: 0 auto;
 }
 

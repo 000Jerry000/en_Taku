@@ -1,6 +1,6 @@
 header {
     width: 100%;
-    max-width: 1440px;
+    /* max-width: 1440px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -106,14 +106,14 @@ header {
 /* section top */
 main {
     width: 100%;
-    max-width: 1440px;
+    /* max-width: 1440px; */
     overflow-x: hidden;
 }
 
 .top {
     width: 100vw;
     height: 54.861vw;
-    max-height: 790px;
+    /* max-height: 790px; */
     background: url("../img/mv.png") no-repeat;
     background-size: 100%;
     position: relative;
@@ -469,7 +469,7 @@ main {
 .system {
     position: relative;
     width: 100vw;
-    max-width: 1440px;
+    /* max-width: 1440px; */
     color: #fff;
     overflow: hidden;
 }
@@ -483,7 +483,7 @@ main {
 
 .sys-img {
     width: 96.94vw;
-    max-width: 1400px;
+    /* max-width: 1400px; */
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -672,7 +672,7 @@ section.contact {
 .copyright {
     margin: 0 auto;
     width: 91.6vw;
-    max-width: 1319px;
+    /* max-width: 1319px; */
     height: 87px;
     display: flex;
     align-items: center;
