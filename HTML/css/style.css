@@ -406,6 +406,7 @@ main {
 /* LIVERS */
 .livers-content {
     display: flex;
+    flex-wrap: wrap;
     gap: 3vw;
 }
 
@@ -416,7 +417,7 @@ main {
 }
 
 .livers-item {
-    width: 50%;
+    width: calc(50% - 1.5vw);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -762,15 +763,15 @@ section.contact {
     gap: 8px;
     flex-direction: column;
     align-items: center;
-    text-align: center ;
+    text-align: center;
     font-weight: 400;
 }
 
-.contact-step .content p:nth-of-type(1){
+.contact-step .content p:nth-of-type(1) {
     font-size: 24px;
 }
 
-.contact-step .content p:nth-of-type(2){
+.contact-step .content p:nth-of-type(2) {
     font-size: 20px;
 }
 
@@ -778,27 +779,27 @@ section.contact {
     margin-block: 55px;
     display: flex;
     align-items: center;
-    justify-content: center ;
+    justify-content: center;
     gap: 30px;
 }
 
-.step-diagram p{
+.step-diagram p {
     color: #cdcdcd;
     font-weight: 700;
 }
 
-.step-diagram .active{
+.step-diagram .active {
     color: #000;
 }
 
-.step-diagram span.arrow{
+.step-diagram span.arrow {
     width: 40px;
     height: 2px;
     background-color: #000;
     position: relative;
 }
 
-.step-diagram span.arrow::after{
+.step-diagram span.arrow::after {
     content: '';
     position: absolute;
     top: -6px;
@@ -809,61 +810,61 @@ section.contact {
     transform: rotate(45deg);
 }
 
-.contact-box{
+.contact-box {
     font-size: 24px;
     font-weight: 700;
 }
 
-.contact-box .boxs{
+.contact-box .boxs {
     font-weight: 500;
 }
 
-input#format{
+input#format {
     margin-left: 50px;
     margin-right: 20px;
 }
 
-input#format:nth-of-type(1){
+input#format:nth-of-type(1) {
     margin-left: 0;
 }
 
-.contact-form{
+.contact-form {
     margin-top: 55px;
 }
 
-.contact-form form{
+.contact-form form {
     display: flex;
     flex-direction: column;
 }
 
-form label{
+form label {
     margin-top: 35px;
     font-size: 24px;
     font-weight: 700;
 }
 
-form input{
+form input {
     height: 60px;
     border: none;
     border-bottom: 1px solid #000;
     font-size: 18px;
 }
 
-form input:focus-visible{
+form input:focus-visible {
     outline: none;
 }
 
-form textarea{
+form textarea {
     margin-top: 30px;
     font-size: 24px;
     resize: none;
 }
 
-form textarea:focus-visible{
+form textarea:focus-visible {
     outline: none;
 }
 
-form input#submit{
+form input#submit {
     font-size: 24px;
     height: max-content;
     border: none;
@@ -871,11 +872,11 @@ form input#submit{
     color: #fff;
 }
 
-form .more-btn button{
+form .more-btn button {
     width: 50%;
 }
 
-.more-btn:hover input#submit{
+.more-btn:hover input#submit {
     color: var(--bg-color);
     cursor: pointer;
     transition: all .35s;

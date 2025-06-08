@@ -134,19 +134,22 @@ a:focus {
     justify-content: center;
 }
 
-.more-btn button {
+.more-btn a {
     width: 30%;
     height: 75px;
     border: 2px solid rgba(0, 0, 0, 0);
     border-radius: 37.5px;
     background: var(--bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 24px;
     color: #fff;
     position: relative;
     transition: all .35s;
 }
 
-.more-btn button:hover {
+.more-btn a:hover {
     background-color: #fff;
     border: 2px solid var(--bg-color);
     color: var(--bg-color);
@@ -154,17 +157,17 @@ a:focus {
     transition: all .35s;
 }
 
-.more-btn button:hover::before {
+.more-btn a:hover::before {
     right: -84px;
     transition: all .35s;
 }
 
-.more-btn button:hover::after {
+.more-btn a:hover::after {
     right: -80px;
     transition: all .35s;
 }
 
-.more-btn button::before {
+.more-btn a::before {
     content: '';
     width: 30px;
     height: 2px;
@@ -176,7 +179,7 @@ a:focus {
     transition: all .35s;
 }
 
-.more-btn button::after {
+.more-btn a::after {
     content: '';
     width: 80px;
     height: 2px;
@@ -235,7 +238,7 @@ a:focus {
 .page-top {
     width: 100vw;
     height: 40.09vw;
-    max-height: 578px;
+    /* max-height: 578px; */
     display: flex;
     align-items: center;
 }
@@ -283,7 +286,7 @@ span.red{
         justify-content: flex-start;
     }
 
-    .more-btn button {
+    .more-btn a {
         width: calc(100% - 40px);
     }
 }
