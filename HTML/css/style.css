@@ -6,7 +6,6 @@ header {
     align-items: center;
     padding-block: 15px;
     color: white;
-    /* background-color: var(--bg-color); */
     position: absolute;
     top: 0;
     z-index: 9;
@@ -191,15 +190,19 @@ main {
     gap: 30px;
 }
 
+.about .section-title {
+    width: max-content;
+}
+
 .about .section-title .description {
     transform: translate(-6px, -17px);
 }
 
 .about-content {
-    font-size: 16px;
-    width: 55%;
+    font-size: 18px;
+    width: 56%;
     letter-spacing: 4px;
-    line-height: 1.8;
+    line-height: 2;
 }
 
 /* strength */
@@ -263,7 +266,7 @@ main {
 }
 
 .support-content {
-    margin-top: 20px;
+    margin-top: 30px;
     margin-inline: 1%;
     display: flex;
     flex-direction: column;
@@ -360,7 +363,7 @@ main {
 }
 
 .faq-item .item-num {
-    font-size: 4.5rem;
+    font-size: 5.5rem;
     font-weight: 700;
     color: var(--text-color);
 }
@@ -380,7 +383,7 @@ main {
     position: absolute;
     left: 0;
     z-index: -1;
-    bottom: 6px;
+    bottom: 2px;
     width: 100%;
     height: 8px;
     border: none;
@@ -526,7 +529,7 @@ main {
     height: 100%;
     transform: skewY(-5deg);
     position: absolute;
-    top: 25%;
+    top: 30vw;
     left: 0;
     background-color: var(--bg-color);
     z-index: -1;
@@ -597,7 +600,7 @@ main {
 }
 
 .flow-item h1 {
-    width: 150px;
+    width: 180px;
     font-size: 24px;
 }
 
@@ -625,14 +628,6 @@ section.contact {
     gap: 1.25rem;
 }
 
-.contact-item:nth-of-type(1) {
-    background: url("../img/company.png") no-repeat center/cover;
-}
-
-.contact-item:nth-of-type(2) {
-    background: url("../img/recruit.png") no-repeat center/cover;
-}
-
 #contact {
     background: url("../img/contact-bg.png") no-repeat center/cover;
 }
@@ -645,16 +640,24 @@ section.contact {
     align-items: center;
     position: relative;
     border-radius: 8px;
+    overflow: hidden;
     transition: all .35s;
 }
 
-.contact-item:hover {
-    background-size: 150%;
+.contact-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    object-fit: cover;
+}
+
+.contact-item:hover img {
+    transform: scale(1.2);
 }
 
 .contact-item .item-title {
     padding-left: 1.46vw;
-    /* font-size: 64px; */
     font-size: 8rem;
     font-weight: 700;
     font-family: sans-serif;
@@ -664,7 +667,6 @@ section.contact {
 .contact-item .description {
     color: #fff;
     font-weight: 400;
-    /* font-size: 8px; */
     font-size: 1.1rem;
     padding-left: 6px;
 }
@@ -673,14 +675,6 @@ section.contact {
     flex-direction: column;
     justify-content: center;
 }
-
-/* #contact .item-title {
-    font-size: 8rem;
-}
-
-#contact .description {
-    font-size: 1.1rem;
-} */
 
 /* FOOTER */
 .footer {

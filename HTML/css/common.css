@@ -265,9 +265,12 @@ span.red {
         display: flex !important;
     }
 
+    .section-title{
+        font-size: 15rem;
+    }
+
     .description {
         font-size: 15.2%;
-        transform: translateY(-10px)
     }
 
     .more-btn {
