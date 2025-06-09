@@ -146,6 +146,7 @@
     .about {
         flex-direction: column;
         max-height: unset;
+        align-items: flex-start;
     }
 
     .about>div {
@@ -153,7 +154,7 @@
     }
 
     .about-content {
-        font-size: 25px;
+        font-size: 17px;
     }
 
     /* STRENGTHS */
@@ -161,6 +162,7 @@
         flex-direction: column;
         gap: 56px;
         margin: 0 auto;
+        margin-top: 50px;
         width: 80vw;
         max-width: 450px;
     }
@@ -296,7 +298,8 @@
 
     .livers-item .item-content {
         height: max-content;
-        font-size: 28px;
+        font-size: 2.64rem;
+        letter-spacing: 5px;
     }
 
     .item-footer p {
@@ -357,22 +360,19 @@
         font-size: 12px;
     }
 
-    .more-btn {
-        padding-inline: 1.46vw;
-    }
-
-    .more-btn button {
+    .contact .more-btn a{
         width: calc(96% - 40px);
+        margin-left: 12px;
     }
 
     /* FOOTER */
-    .footer{
+    .footer {
         flex-direction: column;
         align-items: center;
         gap: 50px;
     }
 
-    .footer-nav{
+    .footer-nav {
         font-size: 32px;
         flex-direction: column;
     }
