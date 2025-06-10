@@ -24,11 +24,16 @@ header {
     font-size: 18px;
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 50px;
     align-items: center;
     margin: 0;
     margin-right: 17px;
     padding: 0;
+    font-weight: 600;
+}
+
+.main-nav .pc {
+    font-size: 20px;
 }
 
 .main-nav li {
@@ -658,7 +663,7 @@ section.contact {
 
 .contact-item .item-title {
     padding-left: 1.46vw;
-    font-size: 8rem;
+    font-size: 7.7rem;
     font-weight: 700;
     font-family: sans-serif;
     letter-spacing: 5px;
@@ -689,11 +694,11 @@ section.contact {
 
 .footer-nav {
     list-style: none;
-    font-size: 16px;
+    font-size: 24px;
     display: flex;
     align-items: center;
     gap: 50px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .footer-nav a,
