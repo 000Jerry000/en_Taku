@@ -1,4 +1,6 @@
-      <section class="top">
+<?php get_header(); ?>
+
+<section class="top">
         <div class="content">
           <h1>
             成功<span>まで</span><br />
@@ -16,10 +18,10 @@
           </p>
         </div>
         <div class="top-img fir">
-          <img src="./img/top01.png" alt="" />
+          <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/top01.png" alt="" />
         </div>
         <div class="top-img sec">
-          <img src="./img/top02.png" alt="" />
+          <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/top02.png" alt="" />
         </div>
         <marquee class="text-slide">The shortest route to success</marquee>
       </section>
@@ -50,7 +52,7 @@
             <div class="item-img">
               <span>01</span>
               <div class="icon">
-                <img src="./img/icon01.png" alt="" />
+                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/icon01.png" alt="" />
               </div>
             </div>
             <div class="item-content">
@@ -62,7 +64,7 @@
             <div class="item-img">
               <span>02</span>
               <div class="icon">
-                <img src="./img/icon02.png" alt="" />
+                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/icon02.png" alt="" />
               </div>
             </div>
             <div class="item-content">
@@ -76,7 +78,7 @@
             <div class="item-img">
               <span>03</span>
               <div class="icon">
-                <img src="./img/icon03.png" alt="" />
+                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/icon03.png" alt="" />
               </div>
             </div>
             <div class="item-content">
@@ -95,7 +97,7 @@
         </div>
         <div class="support-content">
           <div class="support-item">
-            <div class="item-img"><img src="./img/support01.png" /></div>
+            <div class="item-img"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/support01.png" /></div>
             <div class="item-content">
               <h1>アカウント運用 <br />アドバイス</h1>
               <p>
@@ -106,7 +108,7 @@
             </div>
           </div>
           <div class="support-item">
-            <div class="item-img"><img src="./img/support02.png" /></div>
+            <div class="item-img"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/support02.png" /></div>
             <div class="item-content">
               <h1>コンテンツ企画サポート</h1>
               <p>
@@ -116,7 +118,7 @@
             </div>
           </div>
           <div class="support-item">
-            <div class="item-img"><img src="./img/support03.png" /></div>
+            <div class="item-img"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/support03.png" /></div>
             <div class="item-content">
               <h1>マネージャー個別指導</h1>
               <p>
@@ -189,21 +191,21 @@
         <div class="parellel-title"><span>成長支援プログラム</span></div>
         <div class="grow-content">
           <div class="grow-item">
-            <div class="item-img"><img src="./img/grow01.png" /></div>
+            <div class="item-img"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/grow01.png" /></div>
             <h1>パフォーマンス分析</h1>
             <p>
               データに基づいたコンテンツ改善提案で、効果的な成長戦略を立てます。
             </p>
           </div>
           <div class="grow-item">
-            <div class="item-img"><img src="./img/grow02.png" /></div>
+            <div class="item-img"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/grow02.png" /></div>
             <h1>協力ライバーとのPK（バト ル）設定</h1>
             <p>
               ギフト進呈増加、視聴者増加につながるPK（バトル）企画をコーディネートします。
             </p>
           </div>
           <div class="grow-item">
-            <div class="item-img"><img src="./img/grow03.png" /></div>
+            <div class="item-img"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/grow03.png" /></div>
             <h1>
               ギフターレベル50
               実績のある"shu@Fm.."による最新の活きたノウハウを伝授
@@ -222,7 +224,7 @@
         </div>
         <div class="livers-content">
           <div class="livers-item">
-            <div class="item-img"><img src="./img/liver01.png" /></div>
+            <div class="item-img"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/liver01.png" /></div>
             <div class="item-content">
               <p>アンバサダー</p>
               <h2>Shu@Fm...【en-Taku】</h2>
@@ -240,7 +242,7 @@
             >
           </div>
           <div class="livers-item">
-            <div class="item-img"><img src="./img/liver02.png" /></div>
+            <div class="item-img"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/liver02.png" /></div>
             <div class="item-content">
               <h2>だいこんせんせいだよ</h2>
               <p class="pc">
@@ -271,7 +273,7 @@
           </div>
         </div>
         <div class="more-btn">
-          <a href="./liver.html">more</a>
+          <a href="<?php echo esc_url(get_template_directory_uri()); ?>/liver">more</a>
         </div>
       </section>
       <section class="system">
@@ -279,14 +281,14 @@
           System
           <div class="description">収益化の仕組み</div>
         </div>
-        <div class="sys-img pc"><img src="./img/system_top.png" /></div>
-        <div class="sys-img sp"><img src="./img/system_top_sp.png" /></div>
+        <div class="sys-img pc"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/system_top.png" /></div>
+        <div class="sys-img sp"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/system_top_sp.png" /></div>
         <div class="strengths-content container">
           <div class="strengths-item">
             <div class="item-img">
               <span>01</span>
               <div class="icon">
-                <img src="./img/icon04.png" alt="" />
+                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/icon04.png" alt="" />
               </div>
             </div>
             <div class="item-content">
@@ -300,7 +302,7 @@
             <div class="item-img">
               <span>02</span>
               <div class="icon">
-                <img src="./img/icon05.png" alt="" />
+                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/icon05.png" alt="" />
               </div>
             </div>
             <div class="item-content">
@@ -314,7 +316,7 @@
             <div class="item-img">
               <span>03</span>
               <div class="icon icon06">
-                <img src="./img/icon06.png" alt="" />
+                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/icon06.png" alt="" />
               </div>
             </div>
             <div class="item-content">
@@ -373,7 +375,7 @@
             <div class="description">会社概要</div>
           </div>
           <div class="more">more</div>
-          <img src="./img/company.png" alt="company" />
+          <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/company.png" alt="company" />
         </div>
         <div class="contact-item">
           <div class="item-title">
@@ -381,7 +383,7 @@
             <div class="description">採用情報</div>
           </div>
           <div class="more">more</div>
-          <img src="./img/recruit.png" alt="recruit" />
+          <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/recruit.png" alt="recruit" />
         </div>
         <div class="contact-item container-fluid" id="contact">
           <div class="item-title container">
@@ -389,8 +391,9 @@
             <div class="description">お問い合わせ</div>
           </div>
           <div class="more-btn">
-            <a href="./contact.html">more</a>
+            <a href="<?php echo esc_url(get_template_directory_uri()); ?>/contact">more</a>
           </div>
         </div>
       </section>
     </main>
+    <?php get_footer(); ?>
