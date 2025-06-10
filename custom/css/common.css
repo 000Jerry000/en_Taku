@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    transition: all ease-in-out .35s;
+}
+
+:root {
+    --num-back: #7d604a;
+    --bg-color: #a08a7c;
+    --main-color: #d4c1b1;
+    --icon-bg: #ece9e6;
+    --text-color: #ddd2c7;
+}
+
+html {
+    scroll-behavior: smooth;
+    width: 100vw;
+    font-family: sans-serif;
+}
+
+@media (max-width: 1440px) {
+    html {
+        font-size: calc(100vw / 90);
+        /* 16px at 1440px: 1440 / 90 = 16 */
+    }
+}
+
+body {
+    margin: 0 auto;
+    /* max-width: 1440px; */
+    width: 100%;
+    overflow-x: hidden;
+}
+
+section {
+    width: 100vw;
+    /* max-width: 1440px; */
+}
+
+.container-fluid {
+    width: 96.94vw !important;
+    /* max-width: 1400px; */
+    margin: 0 auto;
+}
+
+.container {
+    width: 71.5vw;
+    /* max-width: 1029px; */
+    margin: 0 auto;
+}
+
+@media (min-width: 1210px) {
+    .sm-container {
+        width: 55.55vw;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #fff;
+}
+
+a:hover {
+    color: #fff;
+}
+
+a:active {
+    color: #fff;
+}
+
+/* a:focus {
+    color: #fff;
+} */
+
+.sp {
+    display: none !important;
+}
+
+.section-title {
+    width: 50%;
+    font-size: 7.5rem;
+    font-weight: 700;
+    letter-spacing: 6px;
+}
+
+.container-fluid .section-title {
+    padding-left: 1%;
+}
+
+.description {
+    font-size: 11.2%;
+    letter-spacing: 1px;
+    color: #505050;
+    padding-left: 6px;
+}
+
+.parellel-title {
+    width: 400px;
+    height: 70px;
+    background-color: #333333;
+    color: #fff;
+    transform: skew(-7deg);
+    position: relative;
+}
+
+.parellel-title span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: skew(7deg) translate(-50%, -50%);
+    font-size: 32px;
+    font-weight: 700;
+    width: max-content;
+}
+
+
+.more-btn {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.more-btn a {
+    width: 30%;
+    height: 75px;
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 37.5px;
+    background: var(--bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: #fff;
+    position: relative;
+    transition: all .35s;
+}
+
+.more-btn a:hover {
+    background-color: #fff;
+    border: 2px solid var(--bg-color);
+    color: var(--bg-color);
+    cursor: pointer;
+    transition: all .35s;
+}
+
+.more-btn a:hover::before {
+    right: -84px;
+    transition: all .35s;
+}
+
+.more-btn a:hover::after {
+    right: -80px;
+    transition: all .35s;
+}
+
+.more-btn a::before {
+    content: '';
+    width: 30px;
+    height: 2px;
+    background-color: var(--icon-bg);
+    transform: translate(0, -11px) rotate(45deg);
+    position: absolute;
+    top: 50%;
+    right: -44px;
+    transition: all .35s;
+}
+
+.more-btn a::after {
+    content: '';
+    width: 80px;
+    height: 2px;
+    background-color: var(--icon-bg);
+    position: absolute;
+    top: 50%;
+    right: -40px;
+    transition: all .35s;
+}
+
+.more {
+    position: absolute;
+    bottom: 20px;
+    right: 120px;
+    letter-spacing: 1.5px;
+    font-size: 28px;
+}
+
+.more::after {
+    content: '';
+    width: 90%;
+    height: 1px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 30%;
+    right: -130%;
+    transition: all .35s;
+}
+
+.more::before {
+    content: '';
+    width: 12px;
+    height: 1px;
+    background-color: #fff;
+    transform: rotate(45deg);
+    position: absolute;
+    bottom: calc(30% + 5px);
+    right: -130%;
+    transition: all .35s;
+}
+
+.page-top {
+    width: 100vw;
+    height: 40.09vw;
+    /* max-height: 578px; */
+    display: flex;
+    align-items: center;
+}
+
+.page-top .section-title {
+    color: #fff;
+    width: 71.5vw;
+    max-width: 1029px;
+    margin: 0 auto;
+}
+
+.page-top .section-title .description {
+    color: #fff;
+}
+
+span.red {
+    color: red;
+    vertical-align: super;
+    font-size: 12px;
+}
+
+/* screen width: 750px ~ */
+@media (max-width: 1024px) {
+    .container {
+        width: 96.94vw;
+        max-width: 1400px;
+    }
+}
+
+@media (max-width: 750px) {
+    .pc {
+        display: none !important;
+    }
+
+    .sp {
+        display: flex !important;
+    }
+
+    .section-title{
+        font-size: 15rem;
+    }
+
+    .description {
+        font-size: 15.2%;
+    }
+
+    .more-btn {
+        justify-content: flex-start;
+    }
+
+    .more-btn a {
+        width: calc(100% - 40px);
+    }
+}
