@@ -369,22 +369,22 @@
         <div class="system-back"></div>
       </section>
       <section class="contact container-fluid">
-        <div class="contact-item" id="company">
+        <a href="<?php echo esc_url(get_template_directory_uri()); ?>/company" class="contact-item" id="company">
           <div class="item-title">
             Company
             <div class="description">会社概要</div>
           </div>
           <div class="more">more</div>
           <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/company.png" alt="company" />
-        </div>
-        <div class="contact-item">
+        </a>
+        <a href="" class="contact-item">
           <div class="item-title">
             Recruit
             <div class="description">採用情報</div>
           </div>
           <div class="more">more</div>
           <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/recruit.png" alt="recruit" />
-        </div>
+        </a>
         <div class="contact-item container-fluid" id="contact">
           <div class="item-title container">
             Contact
