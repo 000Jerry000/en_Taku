@@ -1,5 +1,6 @@
 <?php get_header(); ?>
-      <section class="page-top" id="liver-top">
+
+<section class="page-top" id="liver-top">
         <div class="section-title">
           Liver
           <div class="description">ライバー</div>

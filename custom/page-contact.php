@@ -1,5 +1,6 @@
 <?php get_header(); ?>
-      <section class="page-top" id="contact-top">
+
+<section class="page-top" id="contact-top">
         <div class="section-title">
           Contact
           <div class="description">お問い合わせ</div>

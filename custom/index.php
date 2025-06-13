@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<section class="top">
+      <section class="top">
         <div class="content">
           <h1>
             成功<span>まで</span><br />
