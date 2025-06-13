@@ -1,5 +1,6 @@
 <?php get_header(); ?>
-      <section class="page-top" id="company-top">
+
+<section class="page-top" id="company-top">
         <div class="section-title">
           Company
           <div class="description">会社概要</div>
@@ -20,7 +21,15 @@
               <td>住所</td>
               <td>
                 〒150-0012 東京都渋谷区広尾１丁目１０−４ 越山ＬＫビル 4f<br />
-                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/company-map.png" alt="" />
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.37!2d139.717706!3d35.645784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b56d1ea8a45%3A0x901433180fba7aee!2z44CSMTUwLTAwMTIg5p2x5Lqs6YO95riL6LC35p2x5Lqs6YO95riL6LC377yR5LiB55uu77yS77yR77yVIOaJgOWkluOBkQ!5e0!3m2!1sja!2sjp!4v1717479020026!5m2!1sja!2sjp"
+                  height="400"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                >
+                </iframe>
               </td>
             </tr>
           </tbody>

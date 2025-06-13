@@ -772,7 +772,8 @@ section.contact {
 .company-main table tr td {
     padding: 30px 0;
     font-size: 18px;
-    letter-spacing: 1px;}
+    letter-spacing: 1px;
+}
 
 .company-main table tr td:nth-of-type(1) {
     width: 200px;
@@ -793,7 +794,7 @@ section.contact {
     border-bottom: 1px solid #000;
 }
 
-iframe{
+iframe {
     width: calc(71.5vw - 200px);
 }
 

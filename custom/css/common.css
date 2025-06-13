@@ -32,8 +32,17 @@ body {
 }
 
 section {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    will-change: opacity, transform;
     width: 100vw;
     /* max-width: 1440px; */
+}
+
+section.visible {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .container-fluid {
@@ -225,7 +234,7 @@ a:active {
 
 .page-top {
     width: 100vw;
-    height: 40.09vw;
+    height: 40.2vw;
     /* max-height: 578px; */
     display: flex;
     align-items: center;
@@ -257,6 +266,11 @@ span.red {
 }
 
 @media (max-width: 750px) {
+
+    .container, .container-fluid {
+        width: 94.94vw !important;
+    }
+
     .pc {
         display: none !important;
     }
@@ -265,7 +279,7 @@ span.red {
         display: flex !important;
     }
 
-    .section-title{
+    .section-title {
         font-size: 15rem;
     }
 
