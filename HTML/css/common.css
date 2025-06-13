@@ -234,7 +234,7 @@ a:active {
 
 .page-top {
     width: 100vw;
-    height: 40.09vw;
+    height: 40.2vw;
     /* max-height: 578px; */
     display: flex;
     align-items: center;
@@ -266,6 +266,11 @@ span.red {
 }
 
 @media (max-width: 750px) {
+
+    .container, .container-fluid {
+        width: 94.94vw !important;
+    }
+
     .pc {
         display: none !important;
     }

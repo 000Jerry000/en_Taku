@@ -1,6 +1,6 @@
 @media (max-width: 750px) {
     header {
-        height: 90px;
+        height: 10.8rem;
         width: 100vw;
         overflow: hidden;
         padding: 0;
@@ -8,15 +8,17 @@
 
     .logo.header {
         margin-left: 10px;
+        width: 30.48rem;
     }
 
     .main-nav {
         margin: 0;
+        gap: 6rem;
     }
 
     .main-nav li:nth-of-type(4) a {
-        width: 77px;
-        height: 77px;
+        width: 9.24rem;
+        height: 9.24rem;
         border-radius: 50%;
         text-indent: -9999px;
         overflow: hidden;
@@ -26,13 +28,13 @@
         left: 50%;
         top: 50%;
         transform: translate(-50%, -50%);
-        width: 26px;
-        height: 20px;
-        background-size: 26px;
+        width: 3.12rem;
+        height: 2.4rem;
+        background-size: 3.12rem;
     }
 
     .menu-icon {
-        height: 90px;
+        height: 10.8rem;
         aspect-ratio: 1/1;
         background-color: #fff;
         position: relative;
@@ -40,7 +42,7 @@
     }
 
     .menu-icon span {
-        width: 50px;
+        width: 6rem;
         height: 2px;
         border: none;
         background-color: var(--bg-color);
@@ -53,12 +55,12 @@
 
     .menu-icon span::before {
         content: '';
-        width: 50px;
+        width: 6rem;
         height: 2px;
         border: none;
         background-color: var(--bg-color);
         position: absolute;
-        top: -15px;
+        top: -1.8rem;
         left: 50%;
         transform: translateX(-50%);
         transition: all ease-in-out .35s;
@@ -66,12 +68,12 @@
 
     .menu-icon span::after {
         content: '';
-        width: 50px;
+        width: 6rem;
         height: 2px;
         border: none;
         background-color: var(--bg-color);
         position: absolute;
-        top: 15px;
+        top: 1.8rem;
         left: 50%;
         transform: translateX(-50%);
         transition: all ease-in-out .35s;
@@ -154,7 +156,7 @@
     }
 
     .about-content {
-        font-size: 17px;
+        font-size: 25px;
     }
 
     /* STRENGTHS */
@@ -188,6 +190,10 @@
         font-size: 22px;
     }
 
+    .strengths-item p span {
+        font-size: 24px;
+    }
+
     /* SUPPORT */
     .support-item {
         flex-direction: column !important;
@@ -195,7 +201,7 @@
 
     .support-item .item-img {
         width: unset;
-        margin: 30px 40px;
+        margin: 3.6rem 4.8rem;
     }
 
     .support-item .item-content {
@@ -205,13 +211,13 @@
 
     .support-item .item-content h1 {
         font-size: 7rem;
-        line-height: 60px;
+        line-height: 7.2rem;
         white-space: nowrap;
     }
 
     .support-item .item-content p {
         font-size: 3.3rem;
-        margin-top: 30px;
+        margin-top: 3.6rem;
         margin-bottom: 52px;
     }
 
@@ -333,6 +339,15 @@
         gap: 12.53vw;
     }
 
+    .strengths-item .item-img {
+        width: 87%;
+        transform: skew(-10deg) translateX(7%);
+    }
+
+    .strengths-item .item-content {
+        transform: translateX(0);
+    }    
+
     .system-back {
         top: 70vw;
     }
@@ -352,6 +367,10 @@
         height: 60vw;
     }
 
+    #contact {
+        height: 80vw;
+    }
+
     .contact-item .item-title {
         font-size: 68px;
     }
@@ -360,7 +379,7 @@
         font-size: 12px;
     }
 
-    .contact .more-btn a{
+    .contact .more-btn a {
         width: calc(96% - 40px);
         margin-left: 12px;
     }
