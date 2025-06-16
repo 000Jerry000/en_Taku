@@ -13,7 +13,7 @@
 
     .main-nav {
         margin: 0;
-        gap: 6rem;
+        gap: 2rem;
     }
 
     .main-nav li:nth-of-type(4) a {
