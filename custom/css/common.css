@@ -294,4 +294,18 @@ span.red {
     .more-btn a {
         width: calc(100% - 40px);
     }
+
+    .page-top {
+        height: 88.8vw;
+    }
+
+    .page-top .section-title {
+        width: 96.94vw;
+        font-size: 12.4rem;
+    }
+
+    .page-top .section-title .description {
+        font-size: 12.2%;
+        font-weight: 500;
+    }
 }
