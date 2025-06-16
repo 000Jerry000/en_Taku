@@ -156,7 +156,7 @@
     }
 
     .about-content {
-        font-size: 25px;
+        font-size: 3rem;
     }
 
     /* STRENGTHS */
@@ -235,11 +235,11 @@
 
 
     .support-item .item-content span {
-        font-size: 20px;
+        font-size: 2.4rem;
         top: 6.8%;
         right: 7.5%;
         left: unset;
-        padding: 11px 22px;
+        padding: 1.32rem 2.64rem;
     }
 
     /* FAQ */
@@ -296,6 +296,7 @@
     /* LIVERS  */
     .livers-content {
         flex-direction: column;
+        gap: 10vw;
     }
 
     .livers-item {
@@ -304,20 +305,21 @@
 
     .livers-item .item-content {
         height: max-content;
-        font-size: 2.64rem;
-        letter-spacing: 5px;
+        font-size: 3rem;
+        letter-spacing: 0.6rem;
     }
 
     .item-footer p {
         width: 93%;
-        font-size: 18px;
-        letter-spacing: 3px;
+        font-size: 2.24rem;
+        letter-spacing: 0.4rem;
     }
 
     .item-button {
-        height: 80px;
+        height: 12rem;
+        max-height: 80px;
         border-radius: 40px;
-        font-size: 28px;
+        font-size: 5rem;
     }
 
     .item-button::after {
@@ -335,8 +337,9 @@
         margin: 0 auto;
     }
 
-    .strengths-content {
+    .system .strengths-content {
         gap: 12.53vw;
+        padding-top: 30vw;
     }
 
     .strengths-item .item-img {
@@ -346,7 +349,7 @@
 
     .strengths-item .item-content {
         transform: translateX(0);
-    }    
+    }
 
     .system-back {
         top: 70vw;
@@ -394,5 +397,76 @@
     .footer-nav {
         font-size: 32px;
         flex-direction: column;
+        padding: unset;
+    }
+
+    /* --------------------------------------------------- */
+    /* -------------- C O M P A N Y ---------------------- */
+    /* --------------------------------------------------- */
+    #company-top {
+        background: url(../img/company-top-sp.png) no-repeat center/cover;
+    }
+
+    .company-main table tr {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .company-main table tr td {
+        font-size: 28px;
+        letter-spacing: 4px;
+    }
+
+    .company-main table tr td:nth-of-type(1),
+    .company-main table tr td:nth-of-type(2) {
+        width: calc(95vw - 100px);
+        padding-inline: 50px;
+        border: none !important;
+    }
+
+    .company-main table tr td:nth-of-type(1) {
+        background-color: #e7e7e7;
+    }
+
+    .company-main table tr:nth-of-type(3) td:nth-of-type(2) {
+        padding-top: 0;
+        padding-inline: 0;
+        width: 100%;
+        line-height: 1.5;
+        margin-top: 35px;
+    }
+
+    .company-main table tr:nth-of-type(3) td:nth-of-type(2) p {
+        margin-inline: 50px;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    /* --------------------------------------------------- */
+    /* -------------- C O N T A C T ---------------------- */
+    /* --------------------------------------------------- */
+
+    #contact-top {
+        background: url(../img/contact-top-sp.png) no-repeat center/cover;
+        height: 90.8vw;
+    }
+
+    .contact-step .content p:nth-of-type(1) {
+        font-size: 2.88rem;
+    }
+
+    .contact-step .content p:nth-of-type(2) {
+        font-size: 2.4rem;
+    }
+
+    /* --------------------------------------------------- */
+    /* ------------------ L I V E R ---------------------- */
+    /* --------------------------------------------------- */
+
+    #liver-top {
+        background: url(../img/liver-top-sp.png) no-repeat center/cover;
+        height: 90.8vw;
     }
 }

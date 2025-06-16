@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-      <section class="top">
+<section class="top">
         <div class="content">
           <h1>
             成功<span>まで</span><br />
@@ -263,8 +263,11 @@
               </p>
             </div>
             <div class="item-footer">
-              <p>
+              <p class="pc">
                 当事務所が誇るトップライバー「だいこんせんせいだよ」は、en-Takuの成長支援プログラムを活用し、短期間で大きな成功を収めました。
+              </p>
+              <p class="sp">
+                当事務所が誇るトップライバー「だいこんせんせいだよ」は、<br />en-Takuの成長支援プログラムを活用し、短期間で大きな成功を収めました。
               </p>
             </div>
             <a href="mailto:daikonsensei_dayo@gmail.com" class="item-button"

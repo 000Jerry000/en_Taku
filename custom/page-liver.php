@@ -46,8 +46,11 @@
               </p>
             </div>
             <div class="item-footer">
-              <p>
+              <p class="pc">
                 当事務所が誇るトップライバー「だいこんせんせいだよ」は、en-Takuの成長支援プログラムを活用し、短期間で大きな成功を収めました。
+              </p>
+              <p class="sp">
+                当事務所が誇るトップライバー「だいこんせんせいだよ」は、<br />en-Takuの成長支援プログラムを活用し、短期間で大きな成功を収めました。
               </p>
             </div>
             <button class="item-button">daikonsensei_dayo</button>
@@ -90,8 +93,11 @@
               </p>
             </div>
             <div class="item-footer">
-              <p>
+              <p class="pc">
                 当事務所が誇るトップライバー「だいこんせんせいだよ」は、en-Takuの成長支援プログラムを活用し、短期間で大きな成功を収めました。
+              </p>
+              <p class="sp">
+                当事務所が誇るトップライバー「だいこんせんせいだよ」は、<br />en-Takuの成長支援プログラムを活用し、短期間で大きな成功を収めました。
               </p>
             </div>
             <button class="item-button">daikonsensei_dayo</button>

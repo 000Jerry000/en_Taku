@@ -25,24 +25,30 @@
       <section class="contact-box sm-container container">
         <label for="format">お問い合わせ項目</label>
         <div class="boxs">
-          <input
-            type="checkbox"
-            name="format"
-            id="format"
-            value="サービスについて"
-          />サービスについて
-          <input
-            type="checkbox"
-            name="format"
-            id="format"
-            value="お見積もり"
-          />お見積もり
-          <input
-            type="checkbox"
-            name="format"
-            id="format"
-            value="採用について"
-          />採用について
+          <div class="box">
+            <input
+              type="checkbox"
+              name="format"
+              id="format"
+              value="サービスについて"
+            />サービスについて
+          </div>
+          <div class="box">
+            <input
+              type="checkbox"
+              name="format"
+              id="format"
+              value="お見積もり"
+            />お見積もり
+          </div>
+          <div class="box">
+            <input
+              type="checkbox"
+              name="format"
+              id="format"
+              value="採用について"
+            />採用について
+          </div>
         </div>
       </section>
       <section class="contact-form sm-container container">
@@ -52,7 +58,7 @@
             type="text"
             name="company_name"
             id="company_name"
-            placeholder="個人事業主の方は『個人』と入力してください。"
+            placeholder="個人事業主の方は「個人」と入力してください。"
           />
           <label for="name">お名前<span class="red">※</span></label>
           <input
