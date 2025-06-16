@@ -468,6 +468,8 @@ main {
 .item-footer p {
     width: 80%;
     margin: auto auto;
+    font-size: 0.98rem;
+    letter-spacing: 1.5px;
 }
 
 .item-button {
@@ -767,6 +769,7 @@ section.contact {
 
 .company-main table {
     border-collapse: collapse;
+    width: 96%;
 }
 
 .company-main table tr td {
@@ -776,7 +779,7 @@ section.contact {
 }
 
 .company-main table tr td:nth-of-type(1) {
-    width: 200px;
+    width: 12.5rem;
     border-top: 2px solid #000;
 }
 
@@ -795,7 +798,17 @@ section.contact {
 }
 
 iframe {
-    width: calc(71.5vw - 200px);
+    width: calc(71.5vw - 12.5rem);
+}
+
+@media (max-width: 1024px) {
+    .company-main table tr td:nth-of-type(1) {
+        width: 18.5rem;
+    }
+
+    iframe {
+        width: calc(96.5vw - 18.5rem);
+    }
 }
 
 /* --------------------------------------------------- */
@@ -861,17 +874,21 @@ iframe {
 }
 
 .contact-box {
-    font-size: 24px;
-    font-weight: 700;
+    font-size: 22px;
 }
 
 .contact-box .boxs {
     font-weight: 500;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 22px;
+    justify-content: space-around;
 }
 
 input#format {
     margin-left: 50px;
     margin-right: 20px;
+    transform: scale(1.5);
 }
 
 input#format:nth-of-type(1) {
@@ -889,8 +906,7 @@ input#format:nth-of-type(1) {
 
 form label {
     margin-top: 35px;
-    font-size: 24px;
-    font-weight: 700;
+    font-size: 22px;
 }
 
 form input {
