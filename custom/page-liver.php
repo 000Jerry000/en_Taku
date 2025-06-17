@@ -9,7 +9,7 @@
       <section class="livers container-fluid" id="livers">
         <div class="livers-content">
           <div class="livers-item">
-            <div class="item-img"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/liver01.png" /></div>
+            <div class="item-img"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/liver01.webp" /></div>
             <div class="item-content">
               <p>アンバサダー</p>
               <h2>Shu@Fm...【en-Taku】</h2>
@@ -25,7 +25,7 @@
             <button class="item-button">shu770728</button>
           </div>
           <div class="livers-item">
-            <div class="item-img"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/liver02.png" /></div>
+            <div class="item-img"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/liver02.webp" /></div>
             <div class="item-content">
               <h2>だいこんせんせいだよ</h2>
               <p class="pc">
@@ -56,7 +56,7 @@
             <button class="item-button">daikonsensei_dayo</button>
           </div>
           <div class="livers-item">
-            <div class="item-img"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/liver01.png" /></div>
+            <div class="item-img"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/liver01.webp" /></div>
             <div class="item-content">
               <p>アンバサダー</p>
               <h2>Shu@Fm...【en-Taku】</h2>
@@ -72,7 +72,7 @@
             <button class="item-button">shu770728</button>
           </div>
           <div class="livers-item">
-            <div class="item-img"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/liver02.png" /></div>
+            <div class="item-img"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/liver02.webp" /></div>
             <div class="item-content">
               <h2>だいこんせんせいだよ</h2>
               <p class="pc">

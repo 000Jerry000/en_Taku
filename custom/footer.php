@@ -1,7 +1,7 @@
 <footer>
       <div class="footer container">
         <a href="<?php echo esc_url(home_url('/')); ?>" class="footer-logo"
-          ><img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/footer-logo.png"
+          ><img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/footer-logo.webp"
         /></a>
         <ul class="footer-nav">
           <li><a href="<?php echo esc_url(get_template_directory_uri()); ?>/company">Company</a></li>

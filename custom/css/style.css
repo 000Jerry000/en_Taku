@@ -13,7 +13,7 @@ header {
 
 .logo.header {
     /* Style for the logo */
-    background: url("../img/site-logo.png") no-repeat no-repeat center/contain;
+    background: url("../img/site-logo.webp") no-repeat no-repeat center/contain;
     /* background-size: 254px; */
     width: 254px;
     height: 72px;
@@ -71,7 +71,7 @@ header {
     top: 50%;
     left: 16px;
     transform: translateY(-35%);
-    background: url("../img/email-icon.png") no-repeat;
+    background: url("../img/email-icon.webp") no-repeat;
     background-size: 16px;
     height: 19px;
     /* Adjust icon size as needed */
@@ -86,7 +86,7 @@ header {
 }
 
 .main-nav li:nth-of-type(4) a:hover::before {
-    background: url("../img/email-icon-hover.png") no-repeat;
+    background: url("../img/email-icon-hover.webp") no-repeat;
     background-size: 16px;
 }
 
@@ -129,7 +129,7 @@ main {
     width: 100vw;
     height: 54.861vw;
     /* max-height: 790px; */
-    background: url("../img/mv.png") no-repeat;
+    background: url("../img/mv.webp") no-repeat;
     background-size: 100%;
     position: relative;
 }
@@ -317,7 +317,7 @@ main {
 
 .support-item:nth-of-type(1) {
     width: 100%;
-    background: url("../img/support_bg01.png") no-repeat left/cover;
+    background: url("../img/support_bg01.webp") no-repeat left/cover;
     background-size: cover;
 }
 
@@ -325,7 +325,7 @@ main {
     width: 100%;
     display: flex;
     flex-direction: row-reverse;
-    background: url("../img/support_bg02.png");
+    background: url("../img/support_bg02.webp");
     background-size: cover;
 }
 
@@ -336,7 +336,7 @@ main {
 
 .support-item:nth-of-type(3) {
     width: 100%;
-    background: url("../img/support_bg03.png");
+    background: url("../img/support_bg03.webp");
     background-size: cover;
 }
 
@@ -494,7 +494,7 @@ main {
     top: 50%;
     right: 25px;
     transform: translateY(-50%);
-    background: url("../img/send-icon.png") no-repeat center/cover;
+    background: url("../img/send-icon.webp") no-repeat center/cover;
 }
 
 .item-button:hover {
@@ -504,7 +504,7 @@ main {
 }
 
 .item-button:hover::after {
-    background: url("../img/send-icon-hover.png") no-repeat center/cover;
+    background: url("../img/send-icon-hover.webp") no-repeat center/cover;
 }
 
 /* SYSTEM */
@@ -620,7 +620,7 @@ main {
     bottom: -30px;
     left: 50%;
     transform: translateX(-50%);
-    background: url("../img/arrow.png") no-repeat center/cover;
+    background: url("../img/arrow.webp") no-repeat center/cover;
 }
 
 .flow-item:nth-of-type(4)::after {
@@ -637,7 +637,7 @@ section.contact {
 }
 
 #contact {
-    background: url("../img/contact-bg.png") no-repeat center/cover;
+    background: url("../img/contact-bg.webp") no-repeat center/cover;
 }
 
 .contact-item {
@@ -732,6 +732,10 @@ section.contact {
 
 /* screen width: 750px ~ */
 @media (max-width: 1024px) {
+    .main-nav {
+        gap: 20px;
+    }
+
     .strengths-content {
         width: 93vw;
     }
@@ -760,7 +764,7 @@ section.contact {
 /* --------------------------------------------------- */
 
 #company-top {
-    background: url(../img/company-top.png) no-repeat center/contain;
+    background: url(../img/company-top.webp) no-repeat center/contain;
 }
 
 .company-main {
@@ -799,6 +803,7 @@ section.contact {
 
 iframe {
     width: calc(71.5vw - 12.5rem);
+    filter: grayscale(100%);
 }
 
 @media (max-width: 1024px) {
@@ -816,7 +821,7 @@ iframe {
 /* --------------------------------------------------- */
 
 #contact-top {
-    background: url(../img/contact-top.png) no-repeat center/contain;
+    background: url(../img/contact-top.webp) no-repeat center/contain;
 }
 
 .contact-step .content {
@@ -913,6 +918,7 @@ form input {
     height: 60px;
     border: none;
     border-bottom: 1px solid #000;
+    border-radius: unset;
     font-size: 18px;
 }
 
@@ -953,7 +959,7 @@ form .more-btn button {
 /* --------------------------------------------------- */
 
 #liver-top {
-    background: url(../img/liver-top.png) no-repeat center/cover;
+    background: url(../img/liver-top.webp) no-repeat center/cover;
 }
 
 #livers {

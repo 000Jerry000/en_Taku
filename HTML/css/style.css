@@ -732,6 +732,10 @@ section.contact {
 
 /* screen width: 750px ~ */
 @media (max-width: 1024px) {
+    .main-nav {
+        gap: 20px;
+    }
+
     .strengths-content {
         width: 93vw;
     }
@@ -799,6 +803,7 @@ section.contact {
 
 iframe {
     width: calc(71.5vw - 12.5rem);
+    filter: grayscale(100%);
 }
 
 @media (max-width: 1024px) {
@@ -913,6 +918,7 @@ form input {
     height: 60px;
     border: none;
     border-bottom: 1px solid #000;
+    border-radius: unset;
     font-size: 18px;
 }
 
