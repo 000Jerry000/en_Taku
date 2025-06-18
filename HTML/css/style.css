@@ -870,29 +870,31 @@ iframe {
 .step-diagram span.arrow::after {
     content: '';
     position: absolute;
-    top: -6px;
     right: 0;
     width: 15px;
     height: 2px;
     background-color: #000;
     transform: rotate(45deg);
+    transform-origin: right center; /* Rotate around the right edge */
 }
 
-.contact-box {
+form {
     font-size: 22px;
 }
 
-.contact-box .boxs {
-    font-weight: 500;
+form .boxs {
     display: flex;
     flex-wrap: wrap;
     gap: 22px;
     justify-content: space-around;
+    margin-top: 15px;
 }
 
 input#format {
+    height: max-content;
     margin-left: 50px;
     margin-right: 20px;
+    margin-top: 20px;
     transform: scale(1.5);
 }
 
