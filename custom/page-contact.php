@@ -22,37 +22,35 @@
           <p class="thr">送信</p>
         </div>
       </section>
-      <section class="contact-box sm-container container">
-        <label for="format">お問い合わせ項目</label>
-        <div class="boxs">
-          <div class="box">
-            <input
-              type="checkbox"
-              name="format"
-              id="format"
-              value="サービスについて"
-            />サービスについて
-          </div>
-          <div class="box">
-            <input
-              type="checkbox"
-              name="format"
-              id="format"
-              value="お見積もり"
-            />お見積もり
-          </div>
-          <div class="box">
-            <input
-              type="checkbox"
-              name="format"
-              id="format"
-              value="採用について"
-            />採用について
-          </div>
-        </div>
-      </section>
       <section class="contact-form sm-container container">
         <form action="">
+          <label for="format">お問い合わせ項目</label>
+          <div class="boxs">
+            <div class="box">
+              <input
+                type="checkbox"
+                name="format"
+                id="format"
+                value="サービスについて"
+              />サービスについて
+            </div>
+            <div class="box">
+              <input
+                type="checkbox"
+                name="format"
+                id="format"
+                value="お見積もり"
+              />お見積もり
+            </div>
+            <div class="box">
+              <input
+                type="checkbox"
+                name="format"
+                id="format"
+                value="採用について"
+              />採用について
+            </div>
+          </div>
           <label for="company_name">会社名<span class="red">※</span></label>
           <input
             type="text"
